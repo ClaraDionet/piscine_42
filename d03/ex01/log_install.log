@@ -1,0 +1,21 @@
+Collecting git+https://github.com/jaraco/path.py.git
+  Cloning https://github.com/jaraco/path.py.git to /private/var/folders/k8/y_4bb_gj54gfn7jwjx5l_2280000gn/T/pip-req-build-__n856t8
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting importlib-metadata>=0.5 (from path.py==12.0.2.dev2+g91a5c22)
+  Using cached https://files.pythonhosted.org/packages/f6/d2/40b3fa882147719744e6aa50ac39cf7a22a913cbcba86a0371176c425a3b/importlib_metadata-0.23-py2.py3-none-any.whl
+Collecting zipp>=0.5 (from importlib-metadata>=0.5->path.py==12.0.2.dev2+g91a5c22)
+  Using cached https://files.pythonhosted.org/packages/74/3d/1ee25a26411ba0401b43c6376d2316a71addcc72ef8690b101b4ea56d76a/zipp-0.6.0-py2.py3-none-any.whl
+Collecting more-itertools (from zipp>=0.5->importlib-metadata>=0.5->path.py==12.0.2.dev2+g91a5c22)
+  Using cached https://files.pythonhosted.org/packages/45/dc/3241eef99eb45f1def35cf93af35d1cf9ef4c0991792583b8f33ea41b092/more_itertools-7.2.0-py3-none-any.whl
+Building wheels for collected packages: path.py
+  Building wheel for path.py (PEP 517): started
+  Building wheel for path.py (PEP 517): finished with status 'done'
+  Stored in directory: /private/var/folders/k8/y_4bb_gj54gfn7jwjx5l_2280000gn/T/pip-ephem-wheel-cache-voizj_f8/wheels/8d/88/93/f0379960c8f715da1a50fccc45d0aac4c940d3daaf249b212d
+Successfully built path.py
+Installing collected packages: more-itertools, zipp, importlib-metadata, path.py
+Successfully installed importlib-metadata-0.23 more-itertools-7.2.0 path.py-12.0.2.dev2+g91a5c22 zipp-0.6.0
